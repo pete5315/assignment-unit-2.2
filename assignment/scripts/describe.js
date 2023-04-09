@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create a variable named number and set it's value to 1
-// We increase the value of the number variable by 1
-// We check if it is greater than or equal to 2 and console log "yes" if it is.
-// We console log "yes"
+// We create a string variable with an initial value of "Dane"
+// We check if the name is "Mary"
+// If it is, we console log "Hi, Mary!""
+// If it is not, we console log "How do you do?"
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create a string variable with an initial value of "Dane"
-// We check if the name is "Mary"
-// If it is, we console log "Hi, Mary!""
-// If it is not, we console log "How do you do?"
+// We create a variable named secret.
+// We create a number variable named code and set its value to 123
+// We check if code is equal to 123. If it is, we change secret's value to "super" and double the value of code (it is so we do)
+// We check if the current value of code is greater than 250. If is, we change variable secret's value to "duper" (it [246] is not so we don't)
+// We console log "super"
 
 //CODE
 /*
@@ -70,11 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create a variable named secret.
-// We create a number variable named code and set its value to 123
-// We check if code is equal to 123. If it is, we change secret's value to "super" and double the value of code (it is so we do)
-// We check if the current value of code is greater than 250. If is, we change variable secret's value to "duper" (it [246] is not so we don't)
-// We console log "super"
+// we create 3 variables (isStudent, age, and zip) and set their values (true, 34, and 55407, respectively)
+// we check if isStudent is true and the zip is greater than 80000 (zip is not so it doesn't fire)
+// if that didn't go (it didn't), we check if isStudent is false (it's not) or age is less than 30 (it's not)
+// that also didn't go so we check the next else and it checks if is Student is true (it is) and we console log "Welcome to Prime!"
+// the last else does not fire
 
 //CODE
 /*
@@ -94,11 +95,7 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
-// we create 3 variables (isStudent, age, and zip) and set their values (true, 34, and 55407, respectively)
-// we check if isStudent is true and the zip is greater than 80000 (zip is not so it doesn't fire)
-// if that didn't go (it didn't), we check if isStudent is false (it's not) or age is less than 30 (it's not)
-// that also didn't go so we check the next else and it checks if is Student is true (it is) and we console log "Welcome to Prime!"
-// the last else does not fire
+
 
 
 // REVERSE
@@ -141,7 +138,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-// FIX - colorTwo did not get updated. Should add Two = 'purple'; 
+// FIX - colorTwo did not get updated. Should add colorTwo = 'purple'; 
 
 }
 */
