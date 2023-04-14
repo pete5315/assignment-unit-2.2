@@ -30,6 +30,7 @@ if (number >= 2) {
 // We check if the name is "Mary"
 // If it is, we console log "Hi, Mary!""
 // If it is not, we console log "How do you do?"
+// Updated: The code console logs "How do you do?"
 
 //CODE
 /*
@@ -138,8 +139,8 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// UPDATED FIX - colorOne and colorTwo did not get assigned correctly. colorOne should have been set to blue instead of red and colorTwo should have been assigned to red instead of blue.
 // FIX - colorTwo did not get updated. Should add colorTwo = 'purple'; 
-
 }
 */
 
